@@ -1,0 +1,58 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 100%;
+  }
+  
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(184, 235, 252);
+    font-size: 40px;
+    cursor: pointer;
+    border: 1px solid rgb(101, 150, 255);
+  }
+
+  #btn1 {
+    background-color: red;
+  }
+
+  #btn2 {
+    background-color: yellow;
+  }
+
+  #btn3 {
+    background-color: orange;
+  }
+
+  #btn4 {
+    background-color: green;
+  }
+
+  #btn5 {
+    background-color: light-blue;
+  }
+
+  #btn6 {
+    background-color: pink;
+  }
+
+  #btn7 {
+    background-color: purple;
+  }
+
+  #btn8 {
+    background-color: aqua;
+  }
+
+  #btn9 {
+    background-color: white;
+  }
